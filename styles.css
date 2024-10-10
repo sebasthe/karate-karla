@@ -101,3 +101,58 @@ footer {
     margin-top: 40px;
     border-top: 1px solid #ddd;
 }
+
+/* Kontaktformular-Stile */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Ankündigungsleiste-Stile */
+.announcement-bar {
+    background-color: #ffeb3b; /* Helles Gelb für Aufmerksamkeit */
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    position: relative;
+    z-index: 1000;
+}
+
+.announcement-bar a {
+    color: #d32f2f; /* Rot für den Link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.announcement-bar a:hover {
+    text-decoration: underline;
+}
