@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+     <!-- Google Tag Manager -->
+     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KPFCLZMK');</script>
+        <!-- End Google Tag Manager -->
+         
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karate Karla - Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Karate Karla</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html#about">Über mich</a></li>
+                    <li><a href="index.html#projects">Projekte</a></li>
+                    <li><a href="services.html">Dienstleistungen</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact-form">
+        <div class="container">
+            <h2>Kontaktformular</h2>
+            <form action="send_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Senden</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Karate Karla. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
